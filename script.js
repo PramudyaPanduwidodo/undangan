@@ -35,7 +35,7 @@ const CONFIG = {
   balasanYa: "Terima kasih, {penerima}. Aku janji akan menjagamu dan membuatmu bahagia. ♥",
 
   // Opsional: nomor WhatsApp pengirim (format 62..., tanpa + atau spasi). Kosongkan jika tidak perlu.
-  whatsapp: "6281288504358",
+  whatsapp: "6281288503458",
   pesanWhatsapp: "Aku mau jadi kekasihmu ♥",
 
   musik: ""   // opsional, contoh: "lagu.mp3" (satu folder dengan file ini)
