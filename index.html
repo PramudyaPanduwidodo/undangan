@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ada yang ingin kusampaikan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="terkunci">
+
+<div id="hati" aria-hidden="true"></div>
+
+<!-- Sampul pembuka -->
+<div id="sampul">
+  <div class="panel kiri"></div><div class="panel kanan"></div>
+  <div class="sampul-isi">
+    <p>Ada pesan spesial untuk</p>
+    <div class="sampul-nama emas" id="sNama"></div>
+    <button class="segel" id="segel" type="button" aria-label="Buka halaman">♥</button>
+    <p class="petunjuk">Ketuk segel untuk membuka</p>
+  </div>
+</div>
+
+<button id="musik" type="button" aria-label="Putar atau jeda musik">♪</button>
+
+<!-- Hero -->
+<section id="hero">
+  <canvas id="debu" aria-hidden="true"></canvas>
+  <div class="bingkai">
+    <span class="sudut s1">✦</span><span class="sudut s2">✦</span><span class="sudut s3">✦</span><span class="sudut s4">✦</span>
+    <p class="pembuka ha" style="--d:0">Ada yang ingin kusampaikan padamu</p>
+    <h1 class="nama ha" style="--d:.25">
+      <span class="emas" id="n1"></span><span class="dan">dari</span><span class="emas" id="n2"></span>
+    </h1>
+    <div class="garis-emas"></div>
+    <p class="tagline ha" id="tagline" style="--d:.6"></p>
+    <button class="tombol turun ha" id="turun" type="button" style="--d:.9">Lanjutkan</button>
+  </div>
+</section>
+
+<!-- Alasan -->
+<section id="alasan">
+  <div class="isi">
+    <h2 class="reveal">Kenapa aku jatuh hati padamu</h2>
+    <p class="sub reveal">Ketuk kartunya satu per satu</p>
+    <div class="alasan" id="alasanGrid"></div>
+  </div>
+</section>
+
+<!-- Kutipan -->
+<section id="kutipan">
+  <div class="isi reveal">
+    <blockquote class="emas" id="kutip"></blockquote>
+    <div class="orn">✦ ✦ ✦</div>
+  </div>
+</section>
+
+<!-- Galeri -->
+<section id="galeri">
+  <div class="isi">
+    <h2 class="reveal">Momen yang kusimpan</h2>
+    <p class="sub reveal">Setiap kenangan bersamamu terasa berharga</p>
+    <div class="galeri" id="galeriGrid"></div>
+  </div>
+</section>
+<div id="kotakFoto" aria-hidden="true"><div id="fotoBesar"></div></div>
+
+<!-- Surat -->
+<section id="surat">
+  <div class="isi">
+    <h2 class="reveal">Ada surat untukmu</h2>
+    <p class="sub reveal">Ketuk amplopnya</p>
+    <button class="amplop reveal" id="amplop" type="button" aria-expanded="false" aria-controls="kertas" aria-label="Buka surat">
+      <span class="flap"></span><span class="badan"></span><span class="tengah">♥</span>
+    </button>
+    <div class="kertas" id="kertas"><div id="isiSurat"></div></div>
+  </div>
+</section>
+
+<!-- Pertanyaan -->
+<section id="tanya">
+  <div class="isi">
+    <h2 class="reveal emas" id="pertanyaan"></h2>
+    <p class="sub reveal" id="subTanya"></p>
+    <div class="jawab reveal">
+      <button class="tombol" id="ya" type="button">Iya, aku mau</button>
+      <button class="tombol" id="tidak" type="button">Tidak</button>
+    </div>
+    <div id="balasan">
+      <p id="teksBalasan"></p>
+      <a class="tombol" id="wa" href="#" target="_blank" rel="noopener" hidden>Kabari lewat WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer id="footer"></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
